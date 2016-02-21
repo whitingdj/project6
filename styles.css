@@ -1,3 +1,5 @@
+/*************** Base Styles **************/
+
 body {
   margin: 0;
   padding: 0;
@@ -5,7 +7,8 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url('images/background.png') #edeff0;
+  background: url('svgs/background.svg') #edeff0;
+  background-size: 53px 50px;
 }
 
 #container {
@@ -30,6 +33,10 @@ a {
     color: #111;
   }
 
+  img{
+    width: 100%;
+  }
+
 header {
   padding-top: 10px;
 }
@@ -45,7 +52,7 @@ header {
     line-height: 1em;
   }
 
-main {
+  main {
   padding-top: 50px;
 }
   main h2 {
@@ -74,4 +81,56 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+/*************** Navigation Styles **************/
+
+.nav{
+  max-width: 90%;
+  margin: 10px auto;  
+}
+
+.nav-icon{
+  margin: 1em auto;
+}
+
+.st3{
+  transition: .3s ease-out;
+}
+
+.st3:hover{
+  fill: #111;
+}
+/*************** Logo Styles **************/
+
+.wrapper{
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px;
+
+}
+
+.graphic{
+  margin: 1em auto;
+  width: 30%;
+  display: block;
+}
+
+.logo-text{
+  display: none;
+}
+
+
+/*************** Media Queries **************/
+
+
+
+@media screen and (max-width: 420px) {
+  .st1{
+    display: none;
+  }
+
+  .logo-text{
+    display: block;
+  }
 }
