@@ -33,9 +33,7 @@ a {
     color: #111;
   }
 
-  img{
-    width: 100%;
-  }
+
 
 header {
   padding-top: 10px;
@@ -83,7 +81,7 @@ footer {
   color: #ba8058;
 }
 
-/*************** Navigation/Corgi Image Styles **************/
+/*************** Navigation Styles **************/
 
 .nav {
  position: relative; 
@@ -91,15 +89,9 @@ footer {
  width: 100%; 
  padding: 0;
  padding-bottom: 100%; 
+ display: inline;
 }
 
-.nav-icon {
- position: absolute; 
- height: 100%; 
- width: 100%; 
- left: 0; 
- top: 0;
-}
 
 .st3{
   transition: .2s ease-out;
