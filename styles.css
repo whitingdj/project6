@@ -83,19 +83,26 @@ footer {
   color: #ba8058;
 }
 
-/*************** Navigation Styles **************/
+/*************** Navigation/Corgi Image Styles **************/
 
-.nav{
-  max-width: 90%;
-  margin: 10px auto;  
+.nav {
+ position: relative; 
+ height: 0; 
+ width: 100%; 
+ padding: 0;
+ padding-bottom: 100%; 
 }
 
-.nav-icon{
-  margin: 1em auto;
+.nav-icon {
+ position: absolute; 
+ height: 100%; 
+ width: 100%; 
+ left: 0; 
+ top: 0;
 }
 
 .st3{
-  transition: .3s ease-out;
+  transition: .2s ease-out;
 }
 
 .st3:hover{
