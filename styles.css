@@ -92,6 +92,10 @@ footer {
  display: inline;
 }
 
+.st1{
+    display: none;
+  }
+
 
 .st3{
   transition: .2s ease-out;
@@ -116,20 +120,26 @@ footer {
 }
 
 .logo-text{
-  display: none;
+  display: block;
 }
 
+
+/*************** Corgi Styles **************/
+
+.corgi{
+  width: 170px;
+  height: 170px;
+}
 
 /*************** Media Queries **************/
 
 
-
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 420px) {
   .st1{
-    display: none;
+    display: block;
   }
 
   .logo-text{
-    display: block;
+    display: none;
   }
 }
